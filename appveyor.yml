@@ -27,7 +27,7 @@ install:
 
 build_script:
   - rm -r integrationtests
-  - ginkgo -r --randomizeAllSpecs --randomizeSuites --trace --progress
+  - ginkgo -v -r --randomizeAllSpecs --randomizeSuites --trace --progress
 
 test: off
 
